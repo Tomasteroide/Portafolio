@@ -1,0 +1,11 @@
+# Ignorar todos los DS_Store que estén en cualquier carpeta
+*.DS_Store
+
+# Ignorar todo lo que haya dentro de dist/
+dist/
+
+# Ignorar un archivo concreto
+secret.key
+
+# ¡Pero sí quiero commit-ear requirements.txt!
+!requirements.txt      # el ! revierte la regla previa más amplia
